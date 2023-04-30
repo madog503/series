@@ -1,0 +1,26 @@
+
+<!-- paginacion -->
+<!-- $offset: es el numero de registros que se correra el select -->
+<!-- $limit: es el numero de rregistros a mostrar -->
+<!-- $offset = ($page-1) * $limit -->
+ <!-- select * from capitulos LIMIT $offset,$limit; -->
+ <!-- select * from capitulos LIMIT 6,2; -->
+
+
+<!-- reproduccion automatica -->
+ <!-- const videoPlayer = document.getElementById('video-player');
+videoPlayer.addEventListener('loadedmetadata', function() {
+  const duration = xhr.responseText;
+  if (duration) {
+    // Si la duración está disponible, establece el tiempo de inicio del video y comienza la reproducción
+    videoPlayer.currentTime = 0;
+    videoPlayer.play();
+    // Espera hasta que se alcance la duración del video y luego reproduce el siguiente capítulo
+    setTimeout(function() {
+      // Lógica para reproducir el siguiente capítulo
+    }, duration * 1000);
+  } else {
+    // Si la duración no está disponible, simplemente comienza la reproducción
+    videoPlayer.play();
+  }
+}); -->
